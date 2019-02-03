@@ -1,13 +1,26 @@
 :root {
-  --color-primary: #39c9bb;
-  --color-primary-light: #79e9de;
-  --color-secondary: #ffa500;
-  --color-accent: #e2e2e2;
+  --color-primary: #79e9de;
+  --color-primary-light: #c5f5f0;
+  --color-secondary: #fafafa;
+  --color-accent: #FFA500;
 
   --font-primary: "Multi", sans-serif;
-  --font-secondary: "Multi", sans-serif;
+  --font-secondary: "Crimson Text", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+mark {
+  background-color: var(--color-secondary-light)
 }
