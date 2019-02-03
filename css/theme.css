@@ -2,25 +2,39 @@
   --color-primary: #79e9de;
   --color-primary-light: #c5f5f0;
   --color-secondary: #fafafa;
+  --color-secondary-dark: #2c9c91;
+  --color-dark: #000;
   --color-accent: #FFA500;
 
-  --font-primary: "Multi", sans-serif;
-  --font-secondary: "Crimson Text", sans-serif;
+  --font-secondary: "Multi", sans-serif;
+  --font-primary: "Crimson Text", sans-serif;
 }
 
-html {
-  font-family: var(--font-primary);
+/* @utility Apply the secondary typeface */
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply a light background colour to an element */
+.section-light {
+  background-color: var(--color-secondary-light);
+}
+
+/* @utility Apply a dark background colour to an element */
+.section-dark {
+  background-color: var(--color-secondary-dark);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-secondary);
 }
 
 a {
-  color: var(--color-primary-dark);
+  color: var(--color-dark);
 }
 
 mark {
-  background-color: var(--color-secondary-light)
+  background-color: var(--color-primary-light)
 }
