@@ -13,10 +13,10 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      Georgeia was selected because it's a classic font- for classic creatures. Georgia is used for all body copy and most situations.
+      Crimson Text is being used as my primary font because of it's large x-height and friendly feel. It matches well with the secondary typeface (Multi). Crimson Text is used for all body copy and most situations.
     typefaces.seconary: |
-      PT Sans Narrow is only to be used for highlighting text: headings, buttons, banners, etc.
+      Multi is only to be used for highlighting text: headings, buttons, banners, etc.
     colors.primary: |
-      The primary colours represent herbivores & plants & greenery. They should be used for text and for foregrounds.
+      The primary colours chosen as a calming turquoise colour. This colours goes with the theme of home and bath products creating a tranquil, comfortable environment.
     colors.secondary: |
-      The secondary colours are more neutral, continuing with the earth tones, and should be used for backgrounds.
+      The secondary colours are more neutral, continuing with the calming effect of the turquoise colour and complimenting it well.

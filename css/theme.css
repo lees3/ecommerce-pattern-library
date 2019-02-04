@@ -5,11 +5,15 @@
   --color-secondary-dark: #2c9c91;
   --color-dark: #000;
   --color-accent: #FFA500;
+  --color-text: #fff;
 
   --font-secondary: "Multi", sans-serif;
-  --font-primary: "Crimson Text", sans-serif;
+  --font-primary: "Crimson Text", serif;
 }
 
+.font-primary {
+  font-family: var(--font-primary);
+}
 /* @utility Apply the secondary typeface */
 
 .font-secondary {
@@ -31,10 +35,29 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-secondary);
 }
 
-a {
+ul, ol {
+  list-style-type: none;
   color: var(--color-dark);
 }
 
+dt {
+  font-weight: bold;
+  color: var(--color-dark);
+}
+
+dl, dd {
+  font-weight: normal;
+  color: var(--color-dark);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+blockquote, cite {
+  font-style: normal;
+}
+
 mark {
-  background-color: var(--color-primary-light)
+  background-color: var(--color-text)
 }
