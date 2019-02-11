@@ -1,8 +1,10 @@
 :root {
   --color-primary: #79e9de;
   --color-primary-light: #c5f5f0;
+    --color-primary-dark: #2c9c91;
   --color-secondary: #fafafa;
-  --color-secondary-dark: #2c9c91;
+  --color-secondary-dark: #545454;
+  --color-secondary-darkest: #a8a8a8;
   --color-dark: #000;
   --color-accent: #FFA500;
   --color-text: #fff;
@@ -22,7 +24,7 @@
 
 /* @utility Apply a light background colour to an element */
 .section-light {
-  background-color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
 }
 
 /* @utility Apply a dark background colour to an element */
@@ -32,7 +34,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: var(--color-dark);
 }
 
 ul, ol {

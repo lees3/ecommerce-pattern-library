@@ -1,0 +1,33 @@
+.catagory-card {
+  border-style: none;
+  border-radius: 6px;
+  max-width: 20rem;
+  min-height: 33rem;
+  color: var(--color-dark);
+}
+
+.product-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--color-secondary-dark);
+  background-color: var(--color-dark);
+  border-radius: 6px;
+  max-width: 20rem;
+  min-height: 33rem;
+  background-color:
+  color: var(--color-dark);
+  text-align: center;
+}
+
+.checkout-card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--color-secondary-dark);
+  background-color: var(--color-dark);
+  border-radius: 6px;
+  max-width: 15rem;
+  min-height: 33rem;
+  background-color:
+  color: var(--color-dark);
+  text-align: center;
+}

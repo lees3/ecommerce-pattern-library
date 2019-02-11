@@ -3,6 +3,7 @@
   border-style: none;
   color: var(--color-text);
   font-family: var(--font-secondary);
+  border-radius: 14px;
 }
 
 .btn:hover {
