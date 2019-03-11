@@ -2,6 +2,9 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the websites primary header & footer.
   title: "Coze"
   description: |
     Coze sells only the best hand-crafted home enhancers from artists around the Ottawa area.
@@ -10,6 +13,13 @@ patternbot:
     background: "--color-secondary"
     accent: "--color-primary"
     patterns:
+      fields:
+        - name: heading
+          type: string
+          example: "Brilliant, stunning, bright"
+        - name: text
+          type: string
+          example: "Geological marvels: gems, crystals, diamonds, geodes and much more!"
       brand.logos: "--color-primary"
   rationales:
     typefaces.primary: |

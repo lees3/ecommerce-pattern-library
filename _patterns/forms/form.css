@@ -1,0 +1,24 @@
+.address-field {
+  font-family: var(--font-secondary);
+}
+
+.input {
+  border-color: var(--color-primary-dark);
+  border-radius: 12px;
+}
+
+.country-field {
+  font-family: var(--font-secondary);
+}
+
+.email-field {
+  font-family: var(--font-secondary);
+}
+
+.name-field {
+  font-family: var(--font-secondary);
+}
+
+.phone-field {
+  font-family: var(--font-secondary);
+}

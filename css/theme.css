@@ -63,7 +63,3 @@ blockquote, cite {
 mark {
   background-color: var(--color-text)
 }
-
-.form {
-  font-family: var(--font-secondary);
-}
