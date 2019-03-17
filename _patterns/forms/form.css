@@ -22,3 +22,8 @@
 .phone-field {
   font-family: var(--font-secondary);
 }
+
+.icon-label {
+  color: var(--color-accent);
+  font-family: var(--font-primary);
+}

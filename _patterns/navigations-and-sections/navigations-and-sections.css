@@ -1,0 +1,19 @@
+.products-filter {
+  border-color: var(--color-primary-dark);
+  border-radius: 12px;
+}
+
+a {
+  text-decoration: none;}
+
+li {
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  color: var(--color-primary-dark);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
