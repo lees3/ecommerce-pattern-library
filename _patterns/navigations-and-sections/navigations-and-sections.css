@@ -3,6 +3,10 @@
   border-radius: 12px;
 }
 
+ul {
+  background-color: var(--color-primary-dark);
+}
+
 a {
   text-decoration: none;}
 

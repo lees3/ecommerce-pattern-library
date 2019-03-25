@@ -1,0 +1,27 @@
+.masthead {
+  background-color: var(--color-primary-light);
+}
+
+a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+li {
+  color: var(--color-primary-dark);
+}
+
+.footer {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  color: var(--color-text);
+}
+
+.nav {
+  background-color: var(--color-primary-light);
+}

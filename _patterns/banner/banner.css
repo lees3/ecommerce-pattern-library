@@ -1,0 +1,33 @@
+h1 {
+  color: var(--color-text);
+}
+
+.p-banner {
+  color: var(--color-text);
+}
+p {
+  color: var(--color-dark);
+}
+
+.btn {
+  color: var(--color-text);
+}
+
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 470px;
+}
+
+.banner-content {
+  position: absolute;
+  left: .001em;
+  bottom: .4em;
+  color: #fff;
+}

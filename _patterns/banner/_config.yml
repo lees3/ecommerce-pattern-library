@@ -1,0 +1,20 @@
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Brilliant, stunning"
+      - name: text
+        type: string
+        example: Coze sells only the best hand-crafted home enhancers from artists around the Ottawa area.
+      - name: src
+        type: string
+        example: "bath-bomb"
+      - name: button_text
+        type: string
+        example: "See collection"
+        required: false
+      - name: button_url
+        type: url
+        example: "/soap/"
+        required: false

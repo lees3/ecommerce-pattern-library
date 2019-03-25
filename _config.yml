@@ -30,3 +30,17 @@ patternbot:
       The primary colours chosen as a calming turquoise colour. This colours goes with the theme of home and bath products creating a tranquil, comfortable environment.
     colors.secondary: |
       The secondary colours are more neutral, continuing with the calming effect of the turquoise colour and complimenting it well.
+      masthead: |
+      This pattern should be used on every page as the main header.
+      footer: |
+      This pattern should be used on every page as the main footer.
+
+  collections:
+    products:
+      output: true
+
+      defaults:
+        - scope:
+            path: _products
+          values:
+            layout: product

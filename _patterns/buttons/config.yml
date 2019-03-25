@@ -14,3 +14,12 @@ patterns:
     description: |
       The ghost button is will be for banners and busier image cards. It has a lighter colour orange than the regular buttons.
     background: "--color-primary-light"
+
+  light:
+    fields:
+      - name: text
+        type: string
+        example: "See collection"
+      - name: url
+        type: url
+        example: "/bath-bomb"

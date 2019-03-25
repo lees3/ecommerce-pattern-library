@@ -1,24 +1,12 @@
 <div class="product-card">
-  <img class="img-flex" src="/images/products/candle.jpeg">
-  <div class="gutter">
-  <h2 class="pad-t-1-2 push-none">Aquamarine</h2>
-  <p class="pad-t-1-4">Description description description</p>
-  <div class="grid">
-  <div class="unit unit-content-distribute xs-1-2 s-1-2 m-1-2 l-1-2">
-  <ul class="micro list-group push-none">
-    <li>Detail</li>
-    <li>Detail</li>
-    <li>Detail</li>
-  </ul>
-</div>
-  <div class="unit unit-content-distribute xs-1-2 s-1-2 m-1-2 l-1-2">
-  <p class="giga bold push-none">$20</p>
-{% pattern buttons/light %}
-</div>
-</div>
-
-<div class="pad-t-1-2">
-<hr class="push-none">
+<div class="grid">
+  <img class="img-flex unit xs-1-2 s-1-2 m-1-2 l-1-2" src="{{include.data.image}}" alt="">
+  <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
+    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
+  <h2 class="push-1-4">{{include.data.title}}</h2>
+  <p class="push-1-4">{{include.data.description}}</p>
+  {% pattern buttons/light text="Buy" %}
+  </div>
 </div>
 
 <section>
@@ -36,5 +24,5 @@
     <p class="text-left milli push-none pad-b-1-2">I get complimented on this candle all the time. Simply stunning</p>
   </article>
 </section>
-</div>
+
 </div>
