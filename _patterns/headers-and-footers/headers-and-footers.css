@@ -3,12 +3,12 @@
 }
 
 a {
-  color: var(--color-primary-dark);
   text-decoration: none;
+  color: var(--color-text);
 }
 
-li {
-  color: var(--color-primary-dark);
+.header {
+    color: var(--color-primary-dark);
 }
 
 .footer {
@@ -24,4 +24,8 @@ p {
 
 .nav {
   background-color: var(--color-primary-light);
+}
+
+nav a:hover {
+  color: var(--color-text);
 }
