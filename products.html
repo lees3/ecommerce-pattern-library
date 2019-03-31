@@ -1,0 +1,13 @@
+---
+layout: product
+---
+
+{% pattern banner/banner heading="Cozy and beautiful" text="Coze sells only the best hand-crafted home enhancers from artists around the Ottawa area." %}
+
+<div class="grid gutter-1-4">
+{% for products in site.products %}
+<div class=" unit xs-1 s-1 m-1-3 island-1-4">
+  {% pattern cards/product-card data=product %}
+</div>
+{% endfor %}
+</div>

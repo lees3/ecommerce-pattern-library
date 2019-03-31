@@ -1,28 +1,9 @@
-<div class="product-card">
-<div class="grid">
-  <img class="img-flex unit xs-1-2 s-1-2 m-1-2 l-1-2" src="{{include.data.image}}" alt="">
-  <div class="gutter unit xs-1-2 s-1-2 m-1-2 l-1-2">
-    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
-  <h2 class="push-1-4">{{include.data.title}}</h2>
-  <p class="push-1-4">{{include.data.description}}</p>
+<div class="unit xs-1 s-1-2 m-1-3 l-1-4 card product-card text-center inline-block card-flex max-height">
+  <div class="embed embed-3by2">
+  <img class="embed-item" src="{{include.data.img}}" alt="">
+</div>
+  <h2 class="push-1-2 pad-1-2">{{include.data.title}}</h2>
+  <p class="push-1-2">{{include.data.desc}}</p>
+  <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
   {% pattern buttons/light text="Buy" %}
   </div>
-</div>
-
-<section>
-  <article>
-  <p class="text-left nano pad-t-1-2 push-none pad-b-1-2">Bonny W. on Jan 14, 2019 Canada</p>
-  <p class="text-left bold push-none mega">FAVOURITE BY FAR</p>
-    <p class="text-left push-none pad-b-1-4 milli">This is my favourite candle in my collection!</p>
-  </article>
-
-    <hr class="push-none">
-
-  <article>
-    <p class="text-left nano pad-t-1-2 push-none pad-b-1-2">Sarah H. on Jan 11, 2019 Canada</p>
-    <p class="text-left bold push-none mega">LOVE</p>
-    <p class="text-left milli push-none pad-b-1-2">I get complimented on this candle all the time. Simply stunning</p>
-  </article>
-</section>
-
-</div>

@@ -1,12 +1,12 @@
 patterns:
   product-card:
     width: 400
-  decription: |
-  The product card is used on the product listing page to display each available product.
-  fields:
+    description: |
+      The product card is used on the product listing page to display each available product.
+    price: 4
+    fields:
     - name: data
       type: object
       data:
         source: "site.products[0]"
         type: product
-.products[0]""
