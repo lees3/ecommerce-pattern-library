@@ -1,7 +1,7 @@
 ---
 title: "Blue Bubbles Bath Bomb"
-img: "/images/crystal.jpeg"
+img: "/images/bath-bomb.jpeg"
 desc: |
-"The Gemstone Aquamarine. Aquamarine, named for the Latin phrase "water of the sea", is the blue to blue-green variety Beryl. ... Aquamarine ranges in color from a faint light blue to blue and bluish-green, with lighter colored stones being the more common type"
+"This bath bomb of infused with hints of vanilla and is made with real lavender buds. It is sure to relax and unwind your soul after a long day."
 price: 7
 ---

@@ -2,6 +2,6 @@
 title: "Aquamarine Crystal"
 img: "/images/crystal.jpeg"
 desc: |
-"The Gemstone Aquamarine. Aquamarine, named for the Latin phrase "water of the sea", is the blue to blue-green variety Beryl. ... Aquamarine ranges in color from a faint light blue to blue and bluish-green, with lighter colored stones being the more common type"
+"Aquamarine, named for the Latin phrase "water of the sea", is a beautiful blue-green colour. This gem promises to bring peace and balance to your everyday life."
 price: 85
 ---
