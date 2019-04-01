@@ -35,12 +35,12 @@ patternbot:
       footer: |
       This pattern should be used on every page as the main footer.
 
-  collections:
-    products:
-      output: true
+collections:
+  products:
+    output: true
 
-  defaults:
-    - scope:
-        path: _products
-      values:
-        layout: product
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
