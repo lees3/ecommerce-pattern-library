@@ -23,6 +23,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 - [@cecibowles] (https://github.com/ceci-bowles)
 - [@cayangaanika] (https://github.com/cayangaannika)
+- [@lolasundara] (https://github.com/lolasundara)
 
 ---
 
