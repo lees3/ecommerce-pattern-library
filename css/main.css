@@ -6,3 +6,7 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {%pattern_css%}
+
+.checkout-h1 {
+  color: var(--color-dark);
+}
