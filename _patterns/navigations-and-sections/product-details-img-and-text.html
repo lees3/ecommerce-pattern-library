@@ -1,13 +1,13 @@
 <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <img class="img-flex" src="/images/crystal.jpeg" alt="">
+      <img class="img-flex" src="{{include.data.img}}" alt="">
     </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-    <h2 class="push-1-2 pad-1-2">Aqauamarine</h2>
-    <p class="push-1-2">Aquamarine, named for the Latin phrase "water of the sea", is a beautiful blue-green colour. This gem promises to bring peace and balance to your everyday life</p>
-    <strong class="push-1-4 peta color-primary">$85</strong>
+    <h2 class="push-1-2 pad-1-2">{{include.data.title}}</h2>
+    <p class="push-1-2">{{include.data.desc}}</p>
+    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
     <div class="pad-b pad-t">
     {% pattern buttons/light text="Add To Cart" url="/bath-bomb" %}
-    <div>
+  </div>
   </div>
 </div>
