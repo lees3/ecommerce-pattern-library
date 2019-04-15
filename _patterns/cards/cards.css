@@ -34,3 +34,7 @@
   color: var(--color-dark);
   text-align: center;
 }
+
+a {
+  var(--color-dark);
+}
