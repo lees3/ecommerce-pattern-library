@@ -1,9 +1,9 @@
 h1 {
-  color: var(--color-primary-dark);
+  color: var(--color-text);
 }
 
 .p-banner {
-  color: var(--color-primary-dark);
+  color: var(--color-text);
 }
 p {
   color: var(--color-dark);

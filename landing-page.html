@@ -1,0 +1,70 @@
+---
+layout: default
+highlight_nav: home
+---
+<h2>Bulk Promotional Alert</h2>
+
+{% pattern banner/banner heading="Promotional introduction banner" text="call to action." %}
+
+<div class="section-dark">
+  {% for product in site.products %}
+    {% pattern cards/product-card data=product %}
+  {% endfor %}
+</div>
+
+<div class="table-wrapper scrollable">
+  <table class="push-0">
+    <caption class="mega"> We may use third-party Service Providers to monitor and analyze the use of our Service.</caption>
+
+    <thead>
+      <tr>
+        <th class=“service” scope="col">Service</th>
+        <th class=“analytics” scope="col">Analytics</th>
+        <th class=“platform” scope="col">Platform</th>
+        <th class=“privacy-policy” scope="col">Privacy Policy</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th class="bold" scope="row">Facebook Like button and social widgets</th>
+        <td> cookies and usage data </td>
+        <td> Facebook Inc., USA </td>
+        <td><a href="(http://www.facebook.com/privacy/explanation.php)"></a>Facebook</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Pinterest “Pin it” button and social widgets</th>
+        <td>cookies and usage data</td>
+        <td>Pinterest Inc., USA</td>
+        <td><a href="(http://about.pinterest.com/privacy/)"></a>Pinterest</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Google Analytics</th>
+        <td>cookies and usage data</td>
+        <td>Google Inc., USA</td>
+        <td><a href="(http://www.google.com/intl/en/policies/privacy/)">Google Analytics</td>
+      </tr>
+
+      <tr>
+        <th scope="row">MailChimp email address management service</th>
+        <td>email address</td>
+        <td>The Rocket Science Group Inc., USA </td>
+        <td><a href="(http://mailchimp.com/legal/privacy/)"></a>MailChimp</td>
+      </tr>
+
+<tfoot>
+      <tr>
+        <th scope="row">PayPal Standard Checkout</th>
+        <td>email address, name, credit card</td>
+        <td>PayPal Inc., USA</td>
+        <td><a href="(https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside)"></a>PayPal</td>
+      </tr>
+    </tfoot>
+    </tbody>
+
+  </table>
+</div>
+
+<p> Email newsletter sign up</p>
