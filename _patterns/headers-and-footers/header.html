@@ -1,27 +1,27 @@
 <header role="header" class="header masthead">
   <a href="/" class="logo block peta color-dark font-dark">
 
-  <div class="text-center">
-    <i class="icon i-128">
-      <img class="img-flex embed embed-item" src="/images/logo.svg" alt="coze-logo">
-    </i>
-</div>
+    <div class="text-center">
+      <i class="icon i-128">
+        <img class="img-flex embed embed-item" src="/images/logo.svg" alt="coze-logo">
+      </i>
+    </div>
 
-  <nav role="navigation" id="nav" tabindex="0">
-    <ul class=" nav list-group push-0 center-content grid">
+      <nav role="navigation" id="nav" tabindex="0">
+        <ul class="nav list-group">
 
-      <li class="nav-li gutter-1-5 {% if page.highlight_nav == 'home' %}current{% endif %} unit xs-1 s-1 m-1-4 l-1-4 island">
-        <a class="header" href="/">Home</a>
-      </li>
+          <li class="{% if page.highlight_nav == 'home' %}current{% endif %}">
+            <a class="header island" href="/">Home</a>
+          </li>
 
-      <li class="nav-li {% if page.highlight_nav == 'products' %}current{% endif %} gutter-1-2 unit xs-1 s-1 m-1-4 l-1-4"><a class="header" href="/products">Products</a>
-      </li>
+          <li class="{% if page.highlight_nav == 'products' %}current{% endif %}"><a class="header island" href="/products">Products</a>
+          </li>
 
-      <li class="nav-li gutter-1-2 {% if page.highlight_nav == 'contact' %}current{% endif %} unit xs-1 s-1 m-1-4 l-1-4"><a class="header" href="contact.html">Contact</a> </li>
+          <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="header island" href="contact.html">Contact</a> </li>
 
 
-    <li class="nav-li gutter-1-2 {% if page.highlight_nav == 'cart' %}current{% endif %} unit xs-1 s-1 m-1-4 l-1-4"><a class="header" href="/checkout-form"><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#cart"> </svg></i></a> </li>
-  </ul>
+          <li class="{% if page.highlight_nav == 'cart' %}current{% endif %}"><a class="header island" href="/checkout-form"><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#cart"> </svg></i></a> </li>
+          </ul>
 
-  </nav>
-</header>
+        </nav>
+    </header>

@@ -2,13 +2,9 @@
   background-color: var(--color-primary-light);
 }
 
-a {
-  text-decoration: none;
-  color: var(--color-text);
-}
 
 .header {
-    color: var(--color-primary-dark);
+  color: var(--color-primary-dark);
 }
 
 .footer {
@@ -23,9 +19,64 @@ p {
 }
 
 .nav {
-  background-color: var(--color-primary-light);
+  text-align: center;
 }
 
-nav a:hover {
-  color: var(--color-text);
+.nav a {
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 3px;
+  color: var(--color-primary);
+}
+
+.nav a:hover {
+  background-position: .75em center;
+  background-size: 50px;
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.nav li {
+  width: 50%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.current {
+  border-bottom: 5px solid var(--color-primary);
+  color: var(--color-primary-light);
+}
+
+.shopping-cart a:hover {
+  border-bottom: 5px solid var(--color-primary);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    display: inline-block;
+    flex-wrap: none;
+    padding-top: 1em;
+  }
+
+  .nav li {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+  }
+
+  .nav a {
+    display: inline-block;
+  }
+
 }

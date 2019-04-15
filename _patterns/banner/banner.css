@@ -29,5 +29,16 @@ p {
   position: absolute;
   left: .008em;
   bottom: .4em;
-  color: #fff;
+  color: var(--color-dark);
+  background-color: var(--color-secondary-dark);
+}
+
+@media only screen and (min-width: 40em) {
+
+  .banner-content {
+    left: 1em;
+    bottom: 1em;
+    border-radius: 8px;
+  }
+
 }

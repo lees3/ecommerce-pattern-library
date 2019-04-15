@@ -17,11 +17,3 @@ h2 {
 p {
   font-family: var(--font-secondary);
 }
-
-.image-and-text {
-  background-color: var(--color-primary-dark);
-}
-
-.image-and-text-text {
-  color: var(--color-text);
-}

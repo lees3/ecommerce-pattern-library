@@ -1,10 +1,11 @@
 ---
 layout: default
+highlight_nav: products
 ---
 
 {% pattern banner/banner heading="Cozy and beautiful" text="Coze sells only the best hand-crafted home enhancers from artists around the Ottawa area." %}
 
-<div class="section-dark">
+<div class="section-dark island">
   {% for product in site.products %}
     {% pattern cards/product-card data=product %}
   {% endfor %}

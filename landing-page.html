@@ -2,64 +2,109 @@
 layout: default
 highlight_nav: home
 ---
-<h2>Bulk Promotional Alert</h2>
+<h2 class="section-dark push-0 pad-t pad-b">Bulk Promotional Alert</h2>
 
 {% pattern banner/banner heading="Promotional introduction banner" text="call to action." %}
 
-<div class="section-dark">
-  {% for product in site.products %}
-    {% pattern cards/product-card data=product %}
-  {% endfor %}
+<div class="section-dark pad-t pad-b">
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-4">
+      <div class="land">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="/images/candle.jpeg" alt="">
+        </div>
+        <h2 class="push-1-2 pad-1-2">Blha</h2>
+        <p class="push-1-2">blah</p>
+        <strong class="push-1-4 peta color-primary">$money</strong>
+        <div class="island">
+          {% pattern buttons/light text="Buy" url=include.data.url %}
+        </div>
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-4">
+      <div class="land">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="/images/candle.jpeg" alt="">
+        </div>
+        <h2 class="push-1-2 pad-1-2">Blha</h2>
+        <p class="push-1-2">blah</p>
+        <strong class="push-1-4 peta color-primary">$money</strong>
+        <div class="island">
+          {% pattern buttons/light text="Buy" url=include.data.url %}
+        </div>
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-4">
+      <div class="land">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="/images/candle.jpeg" alt="">
+        </div>
+        <h2 class="push-1-2 pad-1-2">Blha</h2>
+        <p class="push-1-2">blah</p>
+        <strong class="push-1-4 peta color-primary">$money</strong>
+        <div class="island">
+          {% pattern buttons/light text="Buy" url=include.data.url %}
+        </div>
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-4">
+      <div class="land">
+        <div class="embed embed-3by2">
+          <img class="embed-item" src="/images/candle.jpeg" alt="">
+        </div>
+        <h2 class="push-1-2 pad-1-2">Blha</h2>
+        <p class="push-1-2">blah</p>
+        <strong class="push-1-4 peta color-primary">$money</strong>
+        <div class="island">
+          {% pattern buttons/light text="Buy" url=include.data.url %}
+        </div>
+      </div>
+    </div>
+  <div>
 </div>
 
-<div class="table-wrapper scrollable">
+<div class="table-wrapper gutter section-dark">
   <table class="push-0">
-    <caption class="mega"> We may use third-party Service Providers to monitor and analyze the use of our Service.</caption>
+    <caption class="mega">Bulk pricing table</caption>
 
     <thead>
       <tr>
-        <th class=“service” scope="col">Service</th>
-        <th class=“analytics” scope="col">Analytics</th>
-        <th class=“platform” scope="col">Platform</th>
-        <th class=“privacy-policy” scope="col">Privacy Policy</th>
+        <th class=“quantity” scope="col">Quantity</th>
+        <th class=“price” scope="col">Price</th>
+        <th class=“discount” scope="col">discount</th>
       </tr>
     </thead>
 
     <tbody>
       <tr>
-        <th class="bold" scope="row">Facebook Like button and social widgets</th>
+        <th scope="row">2</th>
         <td> cookies and usage data </td>
-        <td> Facebook Inc., USA </td>
-        <td><a href="(http://www.facebook.com/privacy/explanation.php)"></a>Facebook</td>
+        <td>$5</td>
       </tr>
 
       <tr>
-        <th scope="row">Pinterest “Pin it” button and social widgets</th>
+        <th scope="row">4</th>
         <td>cookies and usage data</td>
-        <td>Pinterest Inc., USA</td>
-        <td><a href="(http://about.pinterest.com/privacy/)"></a>Pinterest</td>
+        <td>$4</td>
       </tr>
 
       <tr>
-        <th scope="row">Google Analytics</th>
+        <th scope="row">6</th>
         <td>cookies and usage data</td>
-        <td>Google Inc., USA</td>
-        <td><a href="(http://www.google.com/intl/en/policies/privacy/)">Google Analytics</td>
+        <td>$5</td>
       </tr>
 
       <tr>
-        <th scope="row">MailChimp email address management service</th>
+        <th scope="row">8</th>
         <td>email address</td>
-        <td>The Rocket Science Group Inc., USA </td>
-        <td><a href="(http://mailchimp.com/legal/privacy/)"></a>MailChimp</td>
+        <td>$4</td>
       </tr>
 
 <tfoot>
       <tr>
-        <th scope="row">PayPal Standard Checkout</th>
+        <th scope="row">2</th>
         <td>email address, name, credit card</td>
-        <td>PayPal Inc., USA</td>
-        <td><a href="(https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside)"></a>PayPal</td>
+        <td>$5</td>
       </tr>
     </tfoot>
     </tbody>
@@ -67,4 +112,6 @@ highlight_nav: home
   </table>
 </div>
 
-<p> Email newsletter sign up</p>
+<div class="section-dark pad-t pad-b text-center">
+{% pattern buttons/light text="Sign Up For Our Newsletter!" url=include.data.url %}
+</div>
