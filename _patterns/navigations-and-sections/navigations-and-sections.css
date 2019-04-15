@@ -29,3 +29,7 @@ p {
 .image-and-text-text {
   color: var(--color-text);
 }
+
+.text-p {
+  color: var(--color-text);
+}
