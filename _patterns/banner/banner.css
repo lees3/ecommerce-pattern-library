@@ -1,9 +1,9 @@
 h1 {
-  color: var(--color-text);
+  color: var(--color-primary-dark);
 }
 
 .p-banner {
-  color: var(--color-text);
+  color: var(--color-primary-dark);
 }
 p {
   color: var(--color-dark);
@@ -27,7 +27,7 @@ p {
 
 .banner-content {
   position: absolute;
-  left: .001em;
+  left: .008em;
   bottom: .4em;
   color: #fff;
 }

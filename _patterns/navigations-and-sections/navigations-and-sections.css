@@ -22,14 +22,8 @@ p {
   font-family: var(--font-secondary);
 }
 
-.image-and-text-1 {
-  background: url('../images/soap-background.jpg');
-  background-color: rgba(255, 168, 0, 10);
-}
-
-.image-and-text-2 {
-  background: url('../images/candle-background.jpg');
-  background-color: rgba(255, 168, 0, 10);
+.image-and-text {
+  background-color: var(--color-primary-dark);
 }
 
 .image-and-text-text {
