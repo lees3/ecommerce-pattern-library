@@ -2,9 +2,9 @@
 layout: default
 highlight_nav: home
 ---
-<h2 class="section-dark push-0 pad-t pad-b">Bulk Promotional Alert</h2>
+<h2 class="section-dark push-0 pad-t pad-b gutter exa">Socials Sale</h2>
 
-{% pattern banner/banner heading="Promotional introduction banner" text="call to action." %}
+{% pattern banner/banner heading="Up to 30% off featured products!" text="call to action." %}
 
 <div class="section-dark pad-t pad-b">
   <div class="grid">
@@ -64,47 +64,41 @@ highlight_nav: home
     </div>
 
     <div class="table-wrapper gutter section-dark">
-      <table class="push-0">
-        <caption class="mega">Bulk pricing table</caption>
+      <table class="push-0 giga">
+        <caption class="mega exa bold not-italic">Socials Promotion</caption>
 
         <thead>
           <tr>
             <th class=“quantity” scope="col">Quantity</th>
             <th class=“price” scope="col">Price</th>
-            <th class=“discount” scope="col">discount</th>
+            <th class=“discount” scope="col">Discount</th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
             <th scope="row">2</th>
-            <td> cookies and usage data </td>
-            <td>$5</td>
+            <td>Aquamarine Crystal</td>
+            <td>$67.00</td>
           </tr>
 
           <tr>
-            <th scope="row">4</th>
-            <td>cookies and usage data</td>
-            <td>$4</td>
+            <th scope="row">2</th>
+            <td>Peppermint Bath Bomb</td>
+            <td>$6.25</td>
           </tr>
 
           <tr>
-            <th scope="row">6</th>
-            <td>cookies and usage data</td>
-            <td>$5</td>
-          </tr>
-
-          <tr>
-            <th scope="row">8</th>
-            <td>email address</td>
-            <td>$4</td>
+            <th scope="row">2</th>
+            <td>Beeswax Candle</td>
+            <td>$4.00</td>
           </tr>
 
           <tfoot>
             <tr>
-              <th scope="row">2</th>
-              <td>email address, name, credit card</td>
-              <td>$5</td>
+              <th scope="row">1</th>
+              <td>Handcrafted Pillow</td>
+              <td>$4.00</td>
             </tr>
           </tfoot>
         </tbody>
@@ -112,6 +106,15 @@ highlight_nav: home
       </table>
     </div>
 
-    <div class="section-dark pad-t pad-b text-center">
-      {% pattern buttons/light text="Sign Up For Our Newsletter!" url=include.data.url %}
+
+    <div class="unit xs-1 s-1 m-1 l-1 section-pink pad-t">
+      <div class="push gutter email-field unit xs-1 s-1-2 m-1-4 l-1-4">
+        <label for="email">Sign up for our newsletter!</label>
+        <input class="input" id="email" type="email" name="email" required>
+        <div class="pad-t pad-b unit xs-1 s-1 m-1 l-1">
+          {% pattern buttons/light text="Sign Up" url=include.data.url %}
+        </div>
+      </div>
+
     </div>
+  </div>

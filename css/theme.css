@@ -5,7 +5,7 @@
   --color-secondary: #e8e8e8;
   --color-secondary-dark: #D77071;
   --color-dark: #000;
-  --color-accent: #FEC3C5;
+  --color-accent: #D77071;
   --color-text: #fff;
 
   --font-secondary: "Multi", sans-serif;
@@ -37,7 +37,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-dark);
 }
 
 ul, ol {

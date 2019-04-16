@@ -1,5 +1,5 @@
 .btn {
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary-dark);
   border-style: none;
   color: var(--color-text);
   font-family: var(--font-secondary);
@@ -22,6 +22,6 @@
 }
 
 .btn-light {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary-dark);
   max-width: 1500px;
 }

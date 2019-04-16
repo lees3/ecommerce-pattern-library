@@ -3,7 +3,6 @@
   border-radius: 6px;
   max-width: 20rem;
   min-height: 25rem;
-  color: var(--color-dark);
 }
 
 .product-card {
@@ -11,12 +10,10 @@
   border-style: none;
   padding: .75rem;
   border-width: 3px;
-  border-color: var(--color-secondary-dark);
   background-color: var(--color-dark);
   border-radius: 8px;
   max-width: 20rem;
-  background-color: var(--color-primary-light);
-  color: var(--color-dark);
+  background-color: var(--color-accent);
   text-align: center;
   display: inline-block;
 }
@@ -30,7 +27,6 @@
   max-width: 15rem;
   min-height: 33rem;
   background-color:
-  color: var(--color-dark);
   text-align: center;
 }
 
