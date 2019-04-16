@@ -1,7 +1,7 @@
 :root {
   --color-primary: #5CC3C2;
   --color-primary-light: #c5f5f0;
-    --color-primary-dark: #405556;
+  --color-primary-dark: #405556;
   --color-secondary: #e8e8e8;
   --color-secondary-dark: #D77071;
   --color-dark: #000;
@@ -28,7 +28,7 @@
 
 /* @utility Apply a dark background colour to an element */
 .section-dark {
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary);
 }
 
 .section-pink {
@@ -56,7 +56,7 @@ dl, dd {
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--color-secondary-dark);
 }
 
 blockquote, cite {

@@ -1,13 +1,13 @@
 <div class="grid section-">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <img class="img-flex" src="{{include.data.img}}" alt="">
-    </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <img class="img-flex" src="{{include.data.img}}" alt="">
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
     <h2 class="push-1-2 pad-1-2 text-p">{{include.data.title}}</h2>
     <p class="push-1-2 text-p">{{include.data.desc}}</p>
     <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
     <div class="pad-b pad-t">
-    {% pattern buttons/light text="Add To Cart" url="/bath-bomb" %}
-  </div>
+      {% pattern buttons/light text="Add To Cart" url="/bath-bomb" %}
+    </div>
   </div>
 </div>
